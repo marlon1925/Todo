@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Todo.Views.TodoItemPage"
+             Title="{Binding Name}"
+             BackgroundColor="LightGray">
+    <StackLayout Margin="10"
+                 VerticalOptions="StartAndExpand">
+        <Label Text="Nombre"
+               TextColor="DarkBlue"
+               FontSize="18" />
+        <Entry Text="{Binding Name}"
+               Placeholder="Ingrese el nombre"
+               FontSize="16" />
+        <Label Text="Nota"
+               TextColor="DarkBlue"
+               FontSize="18" />
+        <Entry Text="{Binding Notes}"
+               Placeholder="Ingrese la nota"
+               FontSize="16" />
+        <Label Text="Compartir"
+               TextColor="DarkBlue"
+               FontSize="18" />
+        <Switch IsToggled="{Binding Done}" />
+        <Button Text="Guardar"
+                Clicked="OnSaveClicked"
+                BackgroundColor="#4CAF50"
+                TextColor="White"
+                FontSize="16"
+                CornerRadius="5"/>
+        <Button Text="Eliminar"
+                Clicked="OnDeleteClicked"
+                BackgroundColor="#F44336"
+                TextColor="White"
+                FontSize="16"
+                CornerRadius="5"/>
+        <Button Text="Cancelar"
+                Clicked="OnCancelClicked"
+                BackgroundColor="#757575"
+                TextColor="White"
+                FontSize="16"
+                CornerRadius="5"/>
+    </StackLayout>
+</ContentPage>
