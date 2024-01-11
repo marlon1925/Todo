@@ -18,10 +18,11 @@
         <Entry Text="{Binding Notes}"
                Placeholder="Ingrese la nota"
                FontSize="16" />
-        <Label Text="Compartir"
+        <Label Text="Fecha"
                TextColor="DarkBlue"
                FontSize="18" />
-        <Switch IsToggled="{Binding Done}" />
+        <DatePicker Date="{Binding DueDate}" />
+        <!-- Agrega un DatePicker -->
         <Button Text="Guardar"
                 Clicked="OnSaveClicked"
                 BackgroundColor="#4CAF50"

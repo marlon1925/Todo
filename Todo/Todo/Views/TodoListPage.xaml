@@ -28,11 +28,10 @@
                                HorizontalOptions="StartAndExpand"
                                TextColor="DarkBlue"
                                FontSize="16" />
-                        <Image Source="custom_check.png"
-                               HorizontalOptions="End"
-                               IsVisible="{Binding Done}"
-                               WidthRequest="20"
-                               HeightRequest="20" />
+                        <Switch IsToggled="{Binding Done}"
+                                HorizontalOptions="End"
+                                WidthRequest="50"
+                                HeightRequest="30"/>
                     </StackLayout>
                 </ViewCell>
             </DataTemplate>
