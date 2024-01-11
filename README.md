@@ -4,6 +4,8 @@ Wilson Guayanay,
 Josue Salazar
 
 Aplicación de Xamarin.form ToDo
+Link del video explicativo:
+https://www.youtube.com/watch?v=hjO1C4fMc9I
 
 ToDo funcionamiento:
 Abrimos la aplicación generada:
@@ -23,5 +25,3 @@ Se implemento un label que abre un calendario:
 ![image](https://github.com/WilsonG08/Todo/assets/117753973/fc94e4a6-5f17-494f-bd13-96d2b09b9436)
 
 
-Link del video explicativo:
-https://www.youtube.com/watch?v=hjO1C4fMc9I
